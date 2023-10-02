@@ -21,7 +21,6 @@ export class HomeComponent {
     this.participantsService.getAll()
       .subscribe((data:any) => {
         this.participants = data;
-        // Getting the marathon winner data
         this.getMarathonWinner();
       });
     this.centersService.getAll()

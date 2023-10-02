@@ -53,7 +53,4 @@ export class RecordsComponent {
     const center = this.centers.find((center: any) => center.id === centerId);
     return center ? center.name : '';
   }
-
-
-
 }
