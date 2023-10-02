@@ -1,0 +1,11 @@
+<div class="error-container">
+  <h1>
+    <span class="error">Error 404:</span>
+    <br>The page you are trying to reach doesn't exist!
+  </h1>
+  <p class="error-message">Page not found: {{ getCurrentRoute() }}</p>
+  <button mat-raised-button color="primary" [routerLink]="'/home'">
+    Go back to Home
+  </button>
+</div>
+
